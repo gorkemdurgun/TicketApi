@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TicketApi.Models
+namespace TicketApi.Dtos.Ticket
 {
-    public class Ticket
+    public class TicketDto
     {
         public int Id { get; set; }
         public string Title { get; set; }
